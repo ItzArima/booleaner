@@ -10,7 +10,7 @@ html{
 }
 
 #logo {
-    height: 35px;
+    height: 75px;
     width: auto;
 }
 
@@ -20,16 +20,6 @@ body{
 
 .Thebool{
     color: #4ea0ff;
-}
-
-#tim1{
-    
-    width: 54.5%;
-}
-
-#tim2{
-    
-    width: 44.5%;
 }
 
 #evidenziato{
@@ -55,5 +45,14 @@ h3{
 }
 
 .introduzione{
-    background-size: cover;
+    font-size: 65px;
+}
+
+thead{
+    color: White;
+    background-color: #4ea0ff;
+}
+
+#trscuro{
+    background-color: lightblue ; 
 }
