@@ -1,10 +1,17 @@
 html{
     font-family: serif;
+    width:65%;
+    margin: auto;
+}
+
+main{
+    text-align: left;
+    padding: 0 0.5rem;
 }
 
 .intestazione {
     background-color: #4ea0ff;
-    background-size: contain;
+    background-size: 430px;
     background-image: url("./img/pattern.png");
     padding: 30px 20px 0px 10px;
 }
@@ -42,10 +49,8 @@ body{
 
 h3{
     color: white;
-}
-
-.introduzione{
-    font-size: 65px;
+    padding-left: 0.5rem;
+    margin-top: 0.25rem;
 }
 
 thead{
@@ -55,4 +60,41 @@ thead{
 
 #trscuro{
     background-color: lightblue ; 
+}
+
+table{
+    text-align: left;
+    border-spacing: 0;
+}
+
+.introduzione{
+    width: 65%;
+    font-size:2.8rem;
+    margin-bottom:0;
+}
+
+.sottotitolo{
+    color: grey;
+}
+
+.scrittoda{
+    margin-top: 0.05rem;
+    margin-bottom: 0;
+    font-size: 1.25rem; 
+}
+
+.data{
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.w60{
+    width: 60%;
+}
+
+.maybe{
+    margin-bottom: 0.25rem;
+    margin-top: 3em;
+    color: grey;
+    padding-left: 0.5rem;
 }
